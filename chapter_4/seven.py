@@ -10,7 +10,7 @@ sarah.forward(60)
 sarah.down()
 for angle in [160, -43, 270, -97, -43, 200, -940, 17, -86]:
 
-#Secind 100 step turn 
+#Second 100 step turn 
    sarah.left(angle)
    sarah.forward(100)
 
