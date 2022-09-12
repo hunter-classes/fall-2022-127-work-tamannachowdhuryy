@@ -77,14 +77,14 @@ def hexagon(t,x,y,w,color,sidelen):
         
 #def ngon(t,numsides,x,y,color,width,sidelen):
 #code to draw the ngon
-def ngon(t,numsides,x,y,color,w,sidelen):
+def ngon(t,numsides,x,y,color,width,sidelen):
     """
     Draw a square using the turtle passed into t
 
     Parameters:
         t - a turtle
         x,y - location
-        w - width of side
+        width - width of side
         color - color to draw in
         sidelen - length of each side
         numsides - the sides of the shape
@@ -93,7 +93,7 @@ def ngon(t,numsides,x,y,color,w,sidelen):
     """
     t.penup()
     t.goto(x,y)
-    t.width(w)
+    t.width(width)
     t.color(color)
     t.pendown()
         
