@@ -27,7 +27,7 @@ is_odd(0) # False
 #10
 def is_rightangled(a, b, c):
     return abs((a ** 2 + b ** 2) - (c ** 2)) < 0.001
-# test cases and expected results
+
 is_rightangled(1.5, 2.0, 2.5) #True
 is_rightangled(4.0, 8.0, 16.0) #False
 is_rightangled(4.1, 8.2, 9.1678787077) #True
@@ -44,7 +44,7 @@ def is_rightangled(d, e, f):
     else:
         return abs((d ** 2 + e ** 2) - (f ** 2)) < 0.001
 
-# test cases and expected results
+
 is_rightangled(1.5, 2.0, 2.5) #True
 is_rightangled(16.0, 4.0, 8.0) #False
 is_rightangled(4.1, 9.1678787077, 8.2) #True
