@@ -6,34 +6,46 @@
 #Do Ch 7 numbers 7,8,10, and 11
 
 #7
-def is_even(n):
-    return n % 2 == 0
+from test import testEqual
 
-is_even(10) # True
-is_even(5) # False
-is_even(1) #False
-is_even(0) #True
-  
+def is_even(n):
+    if n % 2 == 0:
+        return True
+    else:
+        return False
+
+testEqual(is_even(10), True)
+testEqual(is_even(5), False)
+testEqual(is_even(1), False)
+testEqual(is_even(0), True)
+
   
 #8
-def is_odd(n):
-    return n % 2 > 0
+from test import testEqual
 
-is_odd(10) # False
-is_odd(5) # True
-is_odd(1) # True
-is_odd(0) # False
+def is_odd(n):
+    if n % 2 > 0:
+        return True
+    else:
+        return False
+
+testEqual(is_odd(10), False)
+testEqual(is_odd(5), True)
+testEqual(is_odd(1), True)
+testEqual(is_odd(0), False)
 
 #10
+from test import testEqual
+
 def is_rightangled(a, b, c):
     return abs((a ** 2 + b ** 2) - (c ** 2)) < 0.001
-
-is_rightangled(1.5, 2.0, 2.5) #True
+# test cases and expected results
+is_rightangled(1.5, 2.0, 2.5)#True
 is_rightangled(4.0, 8.0, 16.0) #False
 is_rightangled(4.1, 8.2, 9.1678787077) #True
 is_rightangled(4.1, 8.2, 9.16787) #True
 is_rightangled(4.1, 8.2, 9.168) #False
-is_rightangled(0.5, 0.4, 0.64031) #True
+is_rightangled(0.5, 0.4, 0.64031)#True
 
 #11
 def is_rightangled(d, e, f):
@@ -44,7 +56,7 @@ def is_rightangled(d, e, f):
     else:
         return abs((d ** 2 + e ** 2) - (f ** 2)) < 0.001
 
-
+# test cases and expected results
 is_rightangled(1.5, 2.0, 2.5) #True
 is_rightangled(16.0, 4.0, 8.0) #False
 is_rightangled(4.1, 9.1678787077, 8.2) #True
