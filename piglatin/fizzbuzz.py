@@ -10,5 +10,4 @@ for counter in range(1,101):
         print(counter)
     if counter%3 == 0 and counter%5 == 0:
         print("fizzbuzz")
-
-counter = input("Put your number in: ")          
+        
