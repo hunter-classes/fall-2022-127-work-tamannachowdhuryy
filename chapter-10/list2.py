@@ -6,6 +6,13 @@ def average(numlist):
         total = total + num
 
     return total / len(numlist)
+#tries
+#tries average
+toy = [90, 25, 30]
+print("toy:", toy)
+average=(toy)
+print("Average:",average)
+
 #6
 
 list = [2,3,4]
