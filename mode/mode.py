@@ -7,7 +7,7 @@ def findLargest(l):
     min = l[0]
     for a in l:
 #a has to be less then the min other words the random number 
-        if a < min:
+        if a > min:
             min = a
     return min
 print(l)
