@@ -27,10 +27,7 @@ f.close()
 NOUN = ["gold","piano","jelly","napkin" "flower"]
 ANIMEL= ["bird", "fish", "cat", "tiger", "egale"]
 VERB = ["little", "leave", "feel", "know", "see"]
-PLACE = ["new york", "heaven", "classroom", "portal"]
-COLOR = ["red", "yellow", "orange", "green", "blue", "purple", "white", "black"]
 HERO = ["Jack", "Carol", "Sam", "Tate"]
-ADJECTIVE = ["aggressive", "arrogant", "dizzy","calm"]
     
      
 # NOUN initializing replace word for noun
