@@ -40,7 +40,7 @@ while loop <= 2:
         if repl_word == '<VERB>':
           replacement = verb_change.index(repl_word)
           verb_change.pop(replacement) #we have to pop out <VERB> so we can replace it with a new one so we then use instert
-          verb_change.insert(replacement, random.choice(V))
+          verb_change.insert(replacement, random.choice(V)) #put in
       return verb_change
     verb_change = verb(VERB)
 #we contiune the same cycle to replace everything but this time for noun
