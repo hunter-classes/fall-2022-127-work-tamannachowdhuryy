@@ -1,4 +1,4 @@
-#2 EXTRA (translation in a file and translation in differnt language) 
+#2 EXTRA (DAT file and translation in differnt language) 
 f = open('input.txt','rt') #will open and read the txt file 
 story = f.read() #will read the story 
 
