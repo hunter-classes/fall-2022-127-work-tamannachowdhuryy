@@ -15,7 +15,7 @@ for word in pirate_file:
 
 eng_words = story.split(' ')
 #will change the words in the txt files
-pirate_new_words = []
+pirate_new_words = [] #empty lists to make a new list after change the txt file words 
 redneck_new_words = []
 
 #prints pirate sentence 
@@ -29,9 +29,9 @@ for word in eng_words:
     else:
         pirate_new_words.append(word)
 pirate_new_text = ' '.join(pirate_new_words) #joins the stroy together but with the langauage changed 
-print(pirate_new_text)
+print(pirate_new_text) # prints the whole story out 
 
-#print spanish sentence
+#print redneck sentence
 redneck_file = open('redneck.dat','rt')
 redneck_dict = []
 english_dict = []
@@ -52,7 +52,7 @@ for word in eng_words:
     else:
         redneck_new_words.append(word)
 
-redneck_new_text = ' '.join(redneck_new_words)
+redneck_new_text = ' '.join(redneck_new_words) #join verything together
 print(redneck_new_text)
 
 
