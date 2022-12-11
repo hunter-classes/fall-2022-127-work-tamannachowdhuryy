@@ -67,8 +67,3 @@ plt.title("Heros Has The Same Eye Color & Race")
 plt.xlabel("Eye Color")
 plt.ylabel("Race")
 plt.show()
-
-
-
-
- 
