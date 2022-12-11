@@ -3,7 +3,11 @@
 from matplotlib import pyplot as plt
 import pandas as pd
 import csv
+#open and reads cvs file
+f = open('heroes_information.csv', 'r').read()
+f = f.split('\n')
 #average weight for heros using cvs file
+
 weight = []
 with open("heroes_information.csv") as csvfile:
     reader = csv.DictReader(csvfile)
@@ -67,3 +71,7 @@ plt.title("Heros Has The Same Eye Color & Race")
 plt.xlabel("Eye Color")
 plt.ylabel("Race")
 plt.show()
+
+
+
+ 
