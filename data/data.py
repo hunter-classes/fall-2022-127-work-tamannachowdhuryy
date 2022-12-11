@@ -3,7 +3,7 @@
 from matplotlib import pyplot as plt
 import pandas as pd
 import csv
-#average weight for heros 
+#average weight for heros using cvs file
 weight = []
 with open("heroes_information.csv") as csvfile:
     reader = csv.DictReader(csvfile)
@@ -12,7 +12,7 @@ with open("heroes_information.csv") as csvfile:
         weight.append(float(row["Weight"]))
 print("Average weight:", sum(weight)/ len(weight))
 
-#average height for heros
+#average height for heros using cvs file
 height = []
 with open("heroes_information.csv") as csvfile:
     reader = csv.DictReader(csvfile)
@@ -21,7 +21,7 @@ with open("heroes_information.csv") as csvfile:
         height.append(float(row["Height"]))
 print("Average height:", sum(height)/ len(height))
 
-#average of heros weight and height 
+#average of heros weight and height using cvs file
 height = []
 weight = []
 with open("heroes_information.csv") as csvfile:
