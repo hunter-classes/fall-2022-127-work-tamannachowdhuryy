@@ -27,8 +27,8 @@ int main() {
    //loop starts 
     
   std::cout <<"-----------------------------------------\n";
-  for (int i = 1; i < 10; i ++) {
-        std::cout << "The square root of " << i << sqrt(double(i)) << "\n";
+  for (int i = 0; i < 10; i ++) {
+        std::cout << "The square root of " << i << " is " << sqrt(double(i)) << "\n";
     
     }
     
