@@ -10,8 +10,7 @@ int absolute_value(int v)
 
 //basic project
 int main() {
-  std::cout << "Hello World!\n";
-  std::cout <<"-----------------------------------------\n";
+  std::cout << "Hello World!\n" << std::endl;
   int v = -45;
   std::cout << "absolute value = " << absolute_value(v) << '\n';
   
