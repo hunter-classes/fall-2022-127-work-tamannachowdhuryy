@@ -1,5 +1,6 @@
 #1 extra made a graph
 #used pandas to compare data
+#installed matplotlib and pandas to create comparison and graphs
 from matplotlib import pyplot as plt
 import pandas as pd
 import csv
